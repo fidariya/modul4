@@ -64,7 +64,7 @@ Memasukan dictionory kosong, perintah di atas adalah untuk mendefinisikan listny
     uas.append(i_uas)
 Perintah di atas adalah code untuk menginput list, dan untuk perintah append menambahkan list jika sudah menginput satu nama atau nilai dalam list dan menggunakan perintah pengulangan while.
 5. i_nilaiakhir = (int(i_tugas)*0.30)+(int(i_uts)*0.35)+(int(i_uas)*0.35)
-    nilaiakhir.append(i_nilaiakhir)
+    nilaiakhir.append(i_nilaiakhir)                                                                                                             
 Untuk perintah di atas adalah menghitung nilai akhir dengan nilai tugas 30%, uts 35%, dan uas 35% karna presentasenya masih dalam bentuk persen maka diubah terlebih dahulu ke dalam bentuk desimal dimana tugas menjadi 0,30, uts menjadi 0,35, dan uas menjadi 0,35. Dan untuk append pada nilai akhir untuk menambahkan list dari yang di inputkan.
 6.  more = ""
     while more!= "y" and more!= "t":
