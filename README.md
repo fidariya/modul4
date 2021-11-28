@@ -41,7 +41,7 @@ Berikut adalah penjelasan dan gambar dalam mengakses, mengubah serta menambah li
             break
         else:
             data1.pop(i)
-            continue
+            continue                                                                                                                           
 Perintah di atas adalah memasukan data pada dictionory, untuk data1.pop(i) jika kita salah memasukan data maka data kita otomatis terhapus jika tidak sesuai dengan kriteria.
 2. i = 0, memasukan variabel declaration.
 3.  nama=[]
@@ -49,7 +49,7 @@ nim=[]
 tugas=[]
 uts=[]
 uas=[]
-nilaiakhir=[]
+nilaiakhir=[]                                                                                                                                  
 Memasukan dictionory kosong, perintah di atas adalah untuk mendefinisikan listnya.
 4. while True:
     s_nama = input('Masukan Nama : ')
@@ -61,7 +61,7 @@ Memasukan dictionory kosong, perintah di atas adalah untuk mendefinisikan listny
     i_uts = input('Masukan Nilai Uts : ')
     uts.append(i_uts)
     i_uas = input('Masukan Nilai Uas : ')
-    uas.append(i_uas)
+    uas.append(i_uas)                                                                                                                          
 Perintah di atas adalah code untuk menginput list, dan untuk perintah append menambahkan list jika sudah menginput satu nama atau nilai dalam list dan menggunakan perintah pengulangan while.
 5. i_nilaiakhir = (int(i_tugas)*0.30)+(int(i_uts)*0.35)+(int(i_uas)*0.35)
     nilaiakhir.append(i_nilaiakhir)                                                                                                             
@@ -71,7 +71,7 @@ Untuk perintah di atas adalah menghitung nilai akhir dengan nilai tugas 30%, uts
      more = input("Tambah Data (y/t)? : ")
     i+1
     if more=="t":
-        break
+        break                                                                                                                                  
 Perintah diatas untuk menginput data lagi, jika ingin menginput data lagi maka memilih "y" kalau tidak berati memilih "t".
 7. print('                                             DATA MAHASISWA                                       ')
 print('==================================================================================================')
@@ -79,7 +79,7 @@ print('|    No.    |    Nama    |    Nim    |    Tugas   |    UTS    |     UAS  
 print('==================================================================================================')
 Perintah diatas adalah untuk membuat border saat menampilkan data agar terlihat rapih.
 8. for data in range(len(nim)):
-    print('|    ',data+1,'    |  ',nama[data],'  | ',nim[data],'   |   ',tugas[data],'     |  ',uts[data],'     |   ',uas[data],'     |  ',nilaiakhir[data],'            |')
+    print('|    ',data+1,'    |  ',nama[data],'  | ',nim[data],'   |   ',tugas[data],'     |  ',uts[data],'     |   ',uas[data],'     |  ',nilaiakhir[data],'            |')                                                                                                           
 Perintah diatas adalah untuk menampilkan hasil dari list yang telah di inputkan, dengan menggunakan perulangan for data in range sedangkan (len(nim)) untuk mengembalikan panjang (jumlah anggota) dari suatu objek.
 9. Berikut adalah gambar tampilan program.
 ![Gambar](ss/ss6.png)
